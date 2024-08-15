@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #e4d4d4;
+}
+
+.game-container {
+  text-align: center;
+  background: rgb(136, 129, 129);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.choices button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background: rgb(221, 177, 177);
+}
+
+.result, .score {
+  margin-top: 20px;
+}
